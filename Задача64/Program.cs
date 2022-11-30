@@ -4,7 +4,7 @@
 
 Console.WriteLine("Программа, выводит все натуральные числа в промежутке от N до 1");
 
-Console.Write("Введите число N: ");
+Console.Write("Введите число N = ");
 int n = int.Parse(Console.ReadLine()!);
 int endValue = 1;
 

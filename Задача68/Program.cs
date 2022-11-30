@@ -4,9 +4,9 @@
 
 Console.WriteLine("Программа, вычисляет функцию Аккермана с помощью рекурсии для неотрицательных чисел m и n.");
 
-Console.Write("Введите число m: ");
+Console.Write("Введите число m = ");
 int m = int.Parse(Console.ReadLine()!);
-Console.Write("Введите число n: ");
+Console.Write("Введите число n = ");
 int n = int.Parse(Console.ReadLine()!);
 
 //рекурсия, функция Аккермана

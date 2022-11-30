@@ -4,9 +4,9 @@
 
 Console.WriteLine("Программа, находит сумму натуральных чисел в промежутке от M до N.");
 
-Console.Write("Введите число M: ");
+Console.Write("Введите число M = ");
 int m = int.Parse(Console.ReadLine()!);
-Console.Write("Введите число N (должно быть больше M): ");
+Console.Write("Введите число N (должно быть больше M). N =  ");
 int n = int.Parse(Console.ReadLine()!);
 
 // рекурсия суммы чисел
